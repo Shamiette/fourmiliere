@@ -1,0 +1,9 @@
+#pragma once
+#include <vector>
+
+class AbstractRule {
+    public :
+        virtual bool condition() = 0;
+
+        virtual void action() = 0;
+};
